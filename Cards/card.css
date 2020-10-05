@@ -47,31 +47,14 @@ font-weight: 300;
 }
 
 .card-stats {
-grid-area: stats;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr;
-background-color: rgb(255, 255, 255);
+background-color: rgb(120, 240, 96);
 }
 
-.card-stats .stat {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 10px;
-color: white;
-}
-
-.card-stats .type{
-font-size: 11px;
-font-weight: 300;
-text-transform: uppercase;
-}
-
-.card-stats .value {
-font-size: 22px;
-font-weight: 500;
+.card-stats a i{
+    
+margin-top: 30px;
+margin-top: 10px;
+margin-right: 10px;
 }
 
 .card:hover {
@@ -81,28 +64,5 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 
 
 
-.botao{
-background-color: rgba(236, 14, 14, 0.685);
-border: none;
-color: white;
-margin-left: 10px;
 
-padding: 15px 30px;
 
-cursor: pointer;
-transition: .3s ease all;
-margin-bottom: 5%;
-}
-
-.botao:hover{
-background-color: rgb(42, 187, 6);
-}
-
-.botao i{
-margin-right: 18px;
-}
-
-.botoes-rom{
-margin-left: 50.2%;
-margin-bottom: 0%;
-}
