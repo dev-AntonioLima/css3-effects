@@ -4,7 +4,7 @@ height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: rgba(0, 0, 0, 0.466);
+background-color: rgb(109, 5, 207);
 overflow: hidden;    
 }
 
@@ -56,7 +56,7 @@ color: white;
 }
 
 .card-stats :hover {
-color: rgb(157, 238, 34);
+color: rgb(129, 241, 125);
 }
 
 .card:hover {
