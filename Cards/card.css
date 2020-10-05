@@ -21,7 +21,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 text-align: center;
 
 transition: 0.5s ease;
-cursor: pointer;
 }
 
 .card-image img{
@@ -54,6 +53,10 @@ background-color: rgb(54, 161, 32);
 margin: 30px;
 font-size: 30px;
 color: white;
+}
+
+.card-stats :hover {
+color: rgb(157, 238, 34);
 }
 
 .card:hover {
