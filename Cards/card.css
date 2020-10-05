@@ -13,9 +13,10 @@ display: grid;
 grid-template-columns: 300px;   
 grid-template-rows: 210px 210px 80px; 
 grid-template-areas: "image" "text" "stats";
+margin-right: 5%;
+margin-left: 5%;
 
 font-family: roboto;
-border-radius: 15px;
 background: white;
 box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
 text-align: center;
@@ -24,9 +25,8 @@ transition: 0.5s ease;
 cursor: pointer;
 }
 
-.card-image {
+.card-image img{
 grid-area: image;
-background: url("img/zelda-cover.png");
 background-size: cover;
 }
 
@@ -81,3 +81,28 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 
 
 
+.botao{
+background-color: rgba(236, 14, 14, 0.685);
+border: none;
+color: white;
+margin-left: 10px;
+
+padding: 15px 30px;
+
+cursor: pointer;
+transition: .3s ease all;
+margin-bottom: 5%;
+}
+
+.botao:hover{
+background-color: rgb(42, 187, 6);
+}
+
+.botao i{
+margin-right: 18px;
+}
+
+.botoes-rom{
+margin-left: 50.2%;
+margin-bottom: 0%;
+}
